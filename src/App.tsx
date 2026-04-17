@@ -305,9 +305,10 @@ const LoginPage = ({ onLogin }: { onLogin: () => void }) => {
               </button>
             </div>
 
-            <button 
+            <button
+              type="button"
               onClick={onLogin}
-              className="w-[200px] block mx-auto mt-8 p-3 border-none rounded-[50px] bg-white text-sage font-extrabold uppercase cursor-pointer hover:opacity-90 transition-opacity"
+              className="block mx-auto mt-8 rounded-full bg-white px-8 py-2.5 text-sm font-extrabold uppercase tracking-wide text-sage shadow-sm transition-all duration-200 hover:opacity-90 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-white/70 focus:ring-offset-2 focus:ring-offset-sage"
             >
               LOG IN
             </button>
